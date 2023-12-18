@@ -1,9 +1,12 @@
 import "./App.css";
+import { InputTask } from "./components/InputTask";
 
 function App() {
   return (
     <>
-      <div>hello</div>
+      <div>
+        <InputTask />
+      </div>
     </>
   );
 }
